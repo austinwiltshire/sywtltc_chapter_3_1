@@ -5,3 +5,5 @@ def calculator_subtract(left_hand_number, right_hand_number):
     return left_hand_number - right_hand_number
 def calculator_multiply(left_hand_number, right_hand_number):
     return left_hand_number * right_hand_number
+def calculator_divide(left_hand_number, right_hand_number):
+    return left_hand_number / right_hand_number

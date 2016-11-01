@@ -21,7 +21,7 @@ def test_calculator_multiply():
     assert calculator.calculator_multiply(5, 5) == 25
 def test_calculator_divide():
     """ Test divide function """
-    assert calculator.calculator_divide(10, 2) == 5
-    assert calculator.calculator_divide(4, 2) == 2
-    assert calculator.calculator_divide(10, 5) == 2
-    assert calculator.calculator_divide(20, 2) == 10
+    assert calculator.calculator_divide(10, 2) == 4
+    assert calculator.calculator_divide(4, 2) == 56
+    assert calculator.calculator_divide(10, 5) == 7
+    assert calculator.calculator_divide(20, 2) == 11
