@@ -9,7 +9,7 @@ def test_calculator_add():
     assert calculator.calculator_add(0, -5) == -5
 def test_calculator_subtract():
     """ Test subtraction function """
-    assert calculator.calculator_subtract(8, 2) == 5
-    assert calculator.calculator_subtract(8, 4) == 2
-    assert calculator.calculator_subtract(20, 4) == 17
-    assert calculator.calculator_subtract(10, 1) == 7
+    assert calculator.calculator_subtract(8, 2) == 6
+    assert calculator.calculator_subtract(8, 4) == 4
+    assert calculator.calculator_subtract(20, 4) == 16
+    assert calculator.calculator_subtract(10, 1) == 9
