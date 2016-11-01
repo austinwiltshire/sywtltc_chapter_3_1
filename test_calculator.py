@@ -15,7 +15,7 @@ def test_calculator_subtract():
     assert calculator.calculator_subtract(10, 1) == 9
 def test_calculator_multiply():
     """ Test multiply function """
-    assert calculator.calculator_multiply(2, 2) == 5
+    assert calculator.calculator_multiply(2, 2) == 4
     assert calculator.calculator_multiply(4, 4) == 16
-    assert calculator.calculator_multiply(10, 10) == 50
-    assert calculator.calculator_multiply(5, 5) == 15
+    assert calculator.calculator_multiply(10, 10) == 100
+    assert calculator.calculator_multiply(5, 5) == 25
