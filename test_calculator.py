@@ -29,3 +29,5 @@ def test_calculator_square():
     assert calculator.calculator_square(5) == 25
 def test_calculator_exponent():
     assert calculator.calculator_exponent(3, 3) == 27
+def test_calculator_floor_divide():
+    assert calculator.calculator_floor_divide(5, 2) == 2
