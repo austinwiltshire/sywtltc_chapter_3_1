@@ -27,3 +27,5 @@ def test_calculator_divide():
     assert calculator.calculator_divide(20, 2) == 10
 def test_calculator_square():
     assert calculator.calculator_square(5) == 25
+def test_calculator_exponent():
+    assert calculator.calculator_exponent(3, 3) == 27
