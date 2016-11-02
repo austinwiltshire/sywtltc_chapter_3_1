@@ -11,3 +11,5 @@ def calculator_square(number):
     return number * number
 def calculator_exponent(left_hand_number, right_hand_number):
     return left_hand_number ** right_hand_number
+def calculator_floor_divide(left_hand_number, right_hand_number):
+    return left_hand_number // right_hand_number
