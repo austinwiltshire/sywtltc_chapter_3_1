@@ -1,7 +1,6 @@
 """ Tests calculator.py """
 
 import calculator
-""" import functions from calculator.py """
 
 def test_calculator_add():
     """ Tests the calculator_add function """
